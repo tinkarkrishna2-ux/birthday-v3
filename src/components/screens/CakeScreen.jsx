@@ -75,7 +75,7 @@ export default function CakeScreen({ onNext, onDecorate }) {
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
               <GradientButton onClick={onNext}>
-                Next
+                Open my message 
                 <ArrowRight size={20} className="mt-0.5" />
               </GradientButton>
             </motion.div>
