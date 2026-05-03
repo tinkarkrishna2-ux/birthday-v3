@@ -14,8 +14,7 @@ export default function HomePage() {
   const screens = [
     <LoaderScreen key="loader" onDone={() => setCurrentScreen(1)} />,
     <IntroScreen key="intro" onNext={() => setCurrentScreen(2)} />,
-    <CakeScreen key="cake" onNext={() => setCurrentScreen(3)} />,
-    <PhotosScreen key="photos" onNext={() => setCurrentScreen(4)} />,
+    <CakeScreen key="cake" onNext={() => setCurrentScreen(4)} />,
     <MessageScreen key="message" onNext={() => setCurrentScreen(5)} />,
   ]
 
